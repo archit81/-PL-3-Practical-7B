@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <title>Audio Players</title>
+</head>
+
+<body>
+    <!-- 		    Main Header part 			-->
+    <header>
+        <h1 class="main-header">Amp Audio players</h1>
+        <nav class="container">
+            <a href="/2018BTECS00088_P7B_PS2.html">Music Video Players</a>
+            <a href="/2018BTECS00088_P7B_PS3.html">Youtube Music Video Player</a>
+            <a href="/2018BTECS00088_P7B_PS4.html">External Resource page</a>
+        </nav>
+    </header>
+
+    <!-- 			Main Favourite Food part 			-->
+    <main>
+        <h1 class="sub-header">Audio Players</h1>
+
+        <section class="players">
+            <p>1. Audio player with controls, autoplay and loop enabled -</p>
+            <audio controls autoplay loop>
+                <source src="/audio/K NAAN - Wavin Flag (Coca-Cola Celebration Mix).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <br />
+            <hr /><br />
+
+            <p>2. Audio player with controls disabled & autoplay and loop enabled -</p>
+            <audio muted autoplay>
+                <source src=" /audio/K NAAN - Wavin Flag (Coca-Cola Celebration Mix).ogg" type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <br />
+            <hr /><br />
+
+            <p>3. Audio player with controls enabled and multiple sources, one is online URL and another is local file -
+            </p>
+            <audio controls>
+                <source src="https://jatt.download/music/data/Hip_Hop/201403/Skyrock_CD_1/128/Wavin_Flag_11.mp3"
+                    type="audio/mpeg">
+                <source src="/audio/K NAAN - Wavin Flag (Coca-Cola Celebration Mix).ogg" type="audio/ogg">
+                <source src="/audio/K NAAN - Wavin Flag (Coca-Cola Celebration Mix).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <br />
+            <hr /><br />
+
+            <p>4. Audio player with controls enabled and without any sources, but using track element instead -</p>
+            <audio controls loop>
+                <source src=" /audio/K NAAN - Wavin Flag (Coca-Cola Celebration Mix).ogg" type="audio/ogg">
+                <track src="/lyrics/K Naan - wavin flag.vtt" kind="subtitles" srclang="en" label="English">
+            </audio>
+
+            <br />
+            <hr /><br />
+
+        </section>
+        <h2 class="credit-header">Credits</h2>
+        <section class="credits-section">
+            <div>The <cite>Wavin' Flag</cite> song by K'naan.<br /></div>
+            <b>Released on: </b>Jan 03, 2010.<br />
+            <b>Duration: </b>03:44<br />
+            <b>Language(s): </b>English<br />
+            <b>Singer(s): </b>K'naan<br />
+        </section>
+    </main>
+    <br>
+
+    <footer>
+        <div>Copyright&copy; 2020 Amp Players Ltd., Earth.</div>
+    </footer>
+</body>
+
+</html>

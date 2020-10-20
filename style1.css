@@ -1,0 +1,102 @@
+* {box-sizing: border-box}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-header{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    padding: 20px;
+    border-bottom: solid 1px black;
+}
+.main-header:hover{
+    transition: .5s;
+    color: springgreen;
+}
+.container {
+    width: 100%;
+    background-color: rgb(228, 172, 98);
+    overflow: auto;
+}
+.container a {
+    float: left;
+    padding: 12px;
+    color: navy;
+    text-decoration: none;
+    width: 33.33%;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+}  
+.container a:hover {
+    transition: .5s;
+    color: springgreen;
+    background-color: #000;
+} 
+.container a.active {
+    background-color: #4CAF50;
+}
+.sub-header{
+    font-size: 30px;
+    color: springgreen;
+    background-color: indigo;
+    padding: 10px 30px;
+    margin: 10px;
+}
+section{
+    margin: 10px 20px;
+}
+.credit-header{
+    margin: 20px;
+}
+.credits-section{
+    background-color: black;
+    color: whitesmoke;
+    font-size: smaller;
+    padding: 20px;
+    letter-spacing: 1px;
+    outline: 2px solid crimson;
+    outline-offset: 2px;
+}
+.credits-section div{
+    color: springgreen;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.credits-section b{
+    line-height: 25px;
+    width: 130px;
+    font-style: oblique;
+    display: inline-block;
+    color: tomato;
+}
+embed, object, audio, video, iframe{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    outline: 1px #000 solid;
+    
+}
+footer div{
+    background-color: #172336;
+    color: springgreen;
+    display: block;
+    font-size: smaller;
+    padding: 20px 50px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #131a22;
+    color: whitesmoke;
+    padding: 30px 0px;
+    letter-spacing: 1px;
+}
+.contact-container address{
+    margin: auto;
+}
+.contact-container a{
+    color: aqua;
+}
